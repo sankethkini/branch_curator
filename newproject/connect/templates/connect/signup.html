@@ -1,0 +1,57 @@
+{% extends 'connect/basic.html'%}
+{% block content %}
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="/connect/signup">College Connect</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    
+        <a href="/connect/signup" type="button" name="button" class="btn btn-primary mr-4">Sign up</a>
+        <a href="/connect/login" type="button" name="button" class="btn btn-primary">Log in</a>
+    </div>
+</nav>
+    <div class="container my-5">
+        
+        <form action="" method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="sname">
+                    Name
+                </label>
+                {{forms.name}}
+            </div>
+            <div class="form-group">
+                <label for="usn">
+                    Member Id
+                </label>
+                {{forms.mid}}
+            </div>
+            <div class="form-group">
+                <label for="password">
+                    Password
+                </label> 
+                {{forms.password}}
+            </div>
+            <div class="form-group">
+                <label for="email">
+                    Email
+                </label>
+                {{forms.email}}
+            </div>
+            <div class="form-group">
+                <label for="contact">
+                    Contact
+                </label>
+                {{forms.contact}}
+            </div>
+            <div class="form-group">
+                <label for="sdept">
+                    Department
+                </label>
+                {{forms.dept}}
+            </div>
+            <button class="btn btn-primary" type="submit">SignUp</button>
+        </form>
+    </div>
+ 
+{% endblock %}

@@ -1,0 +1,34 @@
+Classification is a large domain in the field of statistics and machine learning. Generally, classification can be broken down into two areas:
+
+    Binary classification, where we wish to group an outcome into one of two groups.
+
+    Multi-class classification, where we wish to group an outcome into one of multiple (more than two) groups.
+
+In this post, the main focus will be on using a variety of classification algorithms across both of these domains, less emphasis will be placed on the theory behind them.
+
+We can use libraries in Python such as scikit-learn for machine learning models, and Pandas to import data as data frames.
+
+
+For binary classification, we are interested in classifying data into one of two binary groups - these are usually represented as 0's and 1's in our data.
+
+We will look at data regarding coronary heart disease (CHD) in South Africa. The goal is to use different variables such as tobacco usage, family history, ldl cholesterol levels, alcohol usage, obesity and more.
+
+A full description of this dataset is available in the "Data" section of the Elements of Statistical Learning website.
+
+The code below reads the data into a Pandas data frame, and then separates the data frame into a y vector of the response and an X matrix of explanatory.
+Logistic Regression
+
+Logistic Regression is a type of Generalized Linear Model (GLM) that uses a logistic function to model a binary variable based on any kind of independent variables.
+
+To fit a binary logistic regression with sklearn, we use the LogisticRegression module with multi_class set to "ovr" and fit X and y.
+
+We can then use the predict method to predict probabilities of new data, as well as the score method to get the mean prediction accuracy:
+Support Vector Machines
+
+Support Vector Machines (SVMs) are a type of classification algorithm that are more flexible - they can do linear classification, 
+but can use other non-linear basis functions. The following example uses a linear classifier to fit a hyperplane that separates the data into two classes:
+Neural Networks
+
+Neural Networks are a machine learning algorithm that involves fitting many hidden layers used to represent neurons that are connected with synaptic activation functions. These essentially use a very simplified model of the brain to model and predict data.
+
+We use sklearn for consistency in this post, however libraries such as Tensorflow and Keras are more suited to fitting and customizing neural networks, of which there are a few varieties used for different purposes:

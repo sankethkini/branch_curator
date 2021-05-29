@@ -1,0 +1,79 @@
+{% extends 'connect/basic.html'%}
+{%block content%}
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="/connect/home/0">College Connect</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li>
+                <a type="button" href="/connect/createproject" class="btn btn-primary mr-3">+ create project</a>
+            </li>
+            <li>
+                <a href="/connect/createblog" class="btn btn-primary" type="button">+ create blog</a>
+            </li>
+        </ul>
+        <a href="/connect/myprofile" type="button" name="button" class="btn btn-primary mr-4">my profile</a>
+        <a href="/connect/logout" type="button" name="button" class="btn btn-primary">logout</a>
+    </div>
+</nav>
+<div class="container">
+
+    <h3 class="my-3">My Projects</h3>
+    <br>
+    <br>
+    {% if projects|length == 0 %}
+    <div class="alert alert-primary alert-dismissible fade show my-3">
+        <strong>There is no projects in your profile</strong>
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% else %}
+
+    <div class="row">
+        {% for i in projects %}
+        <div class="col-md-3 mr-3 my-2">
+            <div class="card" style="width: 18rem;background-color: darkgray;">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.name}}</h5>
+                    <a href="/connect/deleteproject?id={{i.pid}}" class="btn btn-danger">Delete</a>
+                    <a href="/connect/updateproject/{{i.pid}}/" class="btn btn-success">Update</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+    <h3 class="my-3">Blogs</h3>
+    <br>
+    <br>
+    {% if blogs|length == 0 %}
+    <div class="alert alert-primary alert-dismissible fade show my-3">
+        <strong>There is no blogs in your profile</strong>
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% else %}
+
+    <div class="row">
+        {% for i in blogs %}
+        <div class="col-md-3 mr-3 my-2">
+            <div class="card" style="width: 18rem;background-color: darkgray;">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.title}}</h5>
+                    <a href="/connect/deleteblog?id={{i.bid}}" class="btn btn-danger">Delete</a>
+                    <a href="/connect/updateblog/{{i.bid}}/" class="btn btn-success">update</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+    <br>
+    <br>
+</div>
+
+{% endblock %}

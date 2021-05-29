@@ -1,0 +1,72 @@
+Document/Text classification is one of the important and typical task in supervised machine learning (ML). Assigning categories to documents, which can be a web page, library book, media articles, gallery etc. has many applications like e.g. spam filtering, email routing, sentiment analysis etc. In this article, 
+I would like to demonstrate how we can do text classification using python, 
+scikit-learn and little bit of NLTK.
+
+rerequisite and setting up the environment.
+Loading the data set in jupyter.
+Extracting features from text files.
+Running ML algorithms.
+Grid Search for parameter tuning.
+Useful tips and a touch of NLTK.
+
+
+Artificial intelligence
+Data mining
+Optimization
+
+Statistics
+
+ Supervised learning
+ Unsupervised learning
+Semi-supervised learning
+ Reinforcement learning
+ Dimensionality Reduction
+Other types
+ Models
+  Training models
+
+Text files are actually series of words (ordered). In order to run machine learning algorithms we need to convert the text files into numerical feature vectors.
+ We will be using bag of words model for our example. Briefly, we segment each text file into words (for English splitting by space), and count # of times each 
+word occurs in each document and finally assign each word an integer id. Each unique word in our dictionary will correspond to a feature (descriptive feature).
+here are various algorithms which can be used for text classification. We will start with the most simplest one ‘Naive Bayes 
+
+You can easily build a NBclassifier in scikit using below 2 lines of code.
+
+The dataset used in this article is the Cleveland Heart Disease dataset taken from the UCI repository.
+The code for this article can be found here.
+The code is implemented in Python and different classification models are applied.
+
+In this article I will be using the following classification models for classification :
+
+SVM
+Naive Bayes
+Logistic Regression
+Decision Tree
+Random Forest
+LightGBM
+XGboost
+
+Machine Learning
+
+Machine learning is an emerging subdivision of artificial intelligence. Its primary focus is to design systems, allow them to learn and make predictions based on the experience. It trains machine learning algorithms using a training dataset to create a model.
+The model uses the new input data to predict heart disease. Using machine learning, it detects hidden patterns in the input dataset to build models. It makes accurate predictions for new datasets. The dataset is cleaned and missing values are filled. The model uses the new input data to predict heart disease and then tested for accuracy. 
+Machine learning techniques are classified as:
+Supervised Learning
+
+The model is trained on a dataset that is labelled. It has input data and its outcomes. Data are classified and split into training and test dataset. Training dataset trains our model while testing dataset functions as new data to get accuracy of the model. The dataset exists with models and its output. The classification and regression are its example.
+Unsupervised Learning
+
+Data used to train are not classified or labelled in the dataset. Aim is to find hidden patterns in the data. The model is trained to develop patterns. It can easily predict hidden patterns for any new input dataset, but upon exploring data, it draws conclusion from datasets to describe hidden patterns. 
+In this technique, no responses in the dataset are seen. The clustering method is an example of an unsupervised learning technique.
+Reinforcement Learning
+
+It does not use labelled dataset nor the results are associated with data, thus model learns from the experience. In this technique, the model improves its presentation based on its association with environment and figures out how to discuss its faults and to get the right outcome through assessment and testing various prospects.
+
+Classification algorithms are commonly used supervised learning techniques to define probability of heart disease occurrence.
+Classification Machine Learning Techniques
+
+The classification task is used for prediction of subsequent cases dependent on past information. Many data mining techniques as Naïve Bayes, neural network, decision tree have been applied by researchers to have a precision diagnosis in heart disease.
+The accuracy given by different techniques varies with number of attributes.
+This research provides diagnostic accuracy score for improvement of better health results. 
+We have used WEKA tool in this research for pre-processing the dataset, which is in ARFF format (attribute-relation file format). Only 14 attributes of all 76 different attributes have been considered for analysis to get precise results.
+By comparison and analysis using different algorithms with WEKA tool heart disease can be predicted and treated early and prompt.

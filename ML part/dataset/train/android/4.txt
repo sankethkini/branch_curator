@@ -1,0 +1,20 @@
+flutter dart kotlin java android app 
+Android is a open source mobile operating system basedon  Linux  kernel  developed  by  Google  of  OHA_(OpenHandset  Alliance)  to  develop  Android  mobile  apps2.To  develop  Android  mobile  apps,
+a  set  of  tools  that  areincluded  in  the  Android  SDK  are  needed
+During  Setup  phase  we  install  and  set  up  our 
+   environment   We   also   create   AVDs (Android   Virtual   Devices)   and   connect   hardware devices, on which we can install our applications.Development: During Development phase we prepare  and  develop  our  Android  project,  which  contains  all of the source code ands resource files for our applica-tion.Testing and Verifying
+ During this phase we build our project  into  an  .apk  package,  which  is  installed  and running on the emulator for debugging.Publishing:  During  this  phase  we  prepare  and  build 
+ our   application   for   release   and   distribute   release version of our application to users.
+
+How to use Android Studio to build your app.
+How to run your app on a device or in the emulator.
+How to add interactive buttons.
+How to display a second screen when a button is pressed.
+ou write Android apps in the Java programming language using an IDE called Android Studio. Based on JetBrains' IntelliJ IDEA software, Android Studio is an IDE designed specifically for Android development.
+Android Studio provides a complete IDE, including an advanced code editor and app templates. It also contains tools for development, debugging, testing, and performance that make it faster and easier to develop apps. You can use Android Studio to test your apps with a large range of preconfigured emulators, or on your own mobile device. You can also build production apps and publish apps on the Google Play store.
+
+ How to create a project in Android Studio.
+How to create an emulated Android device.
+How to run your app on the emulator.
+How to run your app on your own physical device, if you have one.
+

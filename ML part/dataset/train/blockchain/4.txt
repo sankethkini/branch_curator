@@ -1,0 +1,4 @@
+Applications that use blockchain are called dApps (Decentralised Applications). Looking around today, we’ll mostly find decentralized apps in fintech, but blockchain goes beyond decentralized finance. We have health platforms, music streaming/sharing platforms, e-commerce platforms, cybersecurity platforms, and IOTs moving towards decentralized applications (dApps) as cited above.
+
+So, when would it make sense to consider using blockchain for our applications, rather than a standard database or record?
+

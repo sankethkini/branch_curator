@@ -1,0 +1,17 @@
+
+
+Is now a good time to become a web developer
+What is web development?
+A brief history of the World Wide Web
+What does a web developer do?
+Programming languages, libraries and frameworks
+What does it take to become a web developer?
+
+Feel free to skip ahead using the clickable menu
+Web development is the process of building websites and applications for the internet, or for a private network known as an intranet.
+Web development is not concerned with the design of a website;
+rather, it’s all about the coding and programming that powers the website’s functionality.
+
+Client-side scripting, or frontend development, refers to everything that the end user experiences directly. 
+Client-side code executes in a web browser and directly relates to what people see when they visit a website. Things like layout, fonts, colours, menus and contact forms are all driven by the frontend.
+Server-side scripting, or backend development, is all about what goes on behind the scenes. The backend is essentially the part of a website that the user doesn’t actually see. It is responsible for storing and organizing data

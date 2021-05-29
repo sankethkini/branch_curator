@@ -1,0 +1,26 @@
+Although, you can use both Kotlin and Java to  native android apps, Google announced in 2019 to make Kotlin the preferred way of developing android applications. 
+If you were to start learning android development today, Kotlin should be your language of choice.
+Android is an open source and Linux-based operating system for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies.
+This  will teach you basic Android programming and will also take you through some advance concepts related to Android application development.
+This  has been prepared for the beginners to help them understand basic Android programming. After completing this tutorial you will find yourself at a moderate level of expertise in Android programming from where you can take yourself to next levels.
+Android programming is based on Java programming language so if you have basic understanding on Java programming then it will be a fun to learn Android application development.
+
+Introduction to Android development with Android Studio
+
+Android Development with Android Studio
+Android Development with Kotlin
+	
+Android Intents
+
+Android application and activity life cycle
+
+The Android permissions model
+
+Using lists and grids in Android with RecylerView
+
+Using Databinding in Android applications
+
+Using lists in Android (ListView)
+
+Android Logging
+

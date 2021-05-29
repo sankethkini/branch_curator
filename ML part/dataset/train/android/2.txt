@@ -1,0 +1,15 @@
+We are excited to announce that Android Studio 4.2 is now available to download in the stable release channel. 
+The focus areas for this release is an upgraded IntelliJ platform and a handful of new features centered around improving your productivity as an Android app developer. 
+We know sometimes upgrading your app project to the latest version can be complicated. To address this, 
+we have a new app project upgrade assistant in Android Studio 4.2 that makes it easier to migrate your project and to take advantage of the latest Android Gradle Plugin APIs.
+Additionally, we have added a whole range of enhancements to the existing features like the Database Inspector, System Trace, SafeArgs support, Apply Changes, the new project wizard and more. 
+If you use these features and you are looking for the next stable version of Android Studio, 
+you should download Android Studio 4.2 today! 
+Native development for Android devices consists of this basic toolset: an SDK, IDEs, programming languages, libraries, and plugins. Let’s see what products you can use to form your own tech stack.
+
+Software Development Kit. An SDK is a bundle of tools that comprises an executable program. This includes documentation, debuggers, emulators, frameworks, libraries, profilers, and more. Android SDK is already included in Android Studio, but if you want to use another IDE, 
+you can download it separately at the bottom of the linked page.
+
+Editors and IDEs. In theory, you can write Android apps in a regular text editor or command line, but the common approach is using an Integrated Development Environment. This tool integrates all SDK tools and helps to manage them more easily and in a more user-friendly manner.
+Android Studio is the official Android IDE, but other options are also popular.
+ Eclipse is Studio’s predecessor that can use plugins to expand the code to more languages. IntelliJ IDEA is a paid but highly customizable option.

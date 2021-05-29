@@ -1,0 +1,20 @@
+
+Blockchain is a specific type of database.
+It differs from a typical database in the way it stores information; blockchains store data in blocks that are then chained together. 
+As new data comes in it is entered into a fresh block. Once the block is filled with data it is chained onto the previous block, which makes the data chained together in chronological order.
+Different types of information can be stored on a blockchain but the most common use so far has been as a ledger for transactions. 
+In Bitcoin’s case, blockchain is used in a decentralized way so that no single person or group has control—rather, all users collectively retain control.
+Decentralized blockchains are immutable, which means that the data entered is irreversible. For Bitcoin, this means that transactions are permanently recorded and viewable to anyone.
+Dapps dapps smart contract
+Blockchain seems complicated, and it definitely can be, but its core concept is really quite simple. A blockchain is a type of database. To be able to understand blockchain, it helps to first understand what a database actually is.  
+etherium
+Because of the decentralized nature of Bitcoin’s blockchain, all transactions can be transparently viewed by either having a personal node or by using blockchain explorers that allow anyone to see transactions occurring live. 
+Each node has its own copy of the chain that gets updated as fresh blocks are confirmed and added. 
+This means that if you wanted to, you could track Bitcoin wherever it goes.  
+Blockchain technology accounts for the issues of security and trust in several ways. First, new blocks are always stored linearly and chronologically. 
+That is, they are always added to the “end” of the blockchain. If you take a look at Bitcoin’s blockchain, you’ll see that each block has a position on the chain, called a “height.” 
+As of November 2020, the block’s height had reached 656,197 blocks so far.  
+Blockchain forms the bedrock for cryptocurrencies like Bitcoin. The U.S. dollar is controlled by the Federal Reserve. Under this central authority system, a user’s data and currency are technically at the whim of their bank or government. If a user’s bank is hacked, the client’s private information is at risk
+Using cryptocurrency wallets for savings accounts or as a means of payment is especially profound for those who have no state identification. Some countries may be war-torn or have governments that lack any real infrastructure to provide identification. Citizens of such countries may not have access to savings or brokerage accounts and therefore, no way to safely store wealth. 
+A smart contract is a computer code that can be built into the blockchain to facilitate, verify, or negotiate a contract agreement. Smart contracts operate under a set of conditions that users agree to. When those conditions are met, the terms of the agreement are automatically carried out. 
+As mentioned, blockchain could be used to facilitate a modern voting system. Voting with blockchain carries the potential to eliminate election fraud and boost voter turnout, as was tested in the November 2018 midterm elections in West Virginia.Using blockchain in this way would make votes nearly impossible to tamper with

@@ -1,0 +1,21 @@
+Backend development (also stylized as back-end or back end development) is the skill that powers the web. Yet it does it modestly, without fanfare—allowing people to browse their favorite sites without even knowing about all the work put in by the backend developer or team.
+Front-end Vs Backend Programming
+
+Intuitively, the other side of backend development is the front end. 
+
+The key difference is that while backend developers build how a website functions, front-end programmers build and design the interface, determining how the site looks to users. 
+
+Backend web development lays the foundational code that enables websites to process the actions that users take on the front end and deliver the correct information in return.
+PHP powers 78.2% of all websites whose server-side programming language we know. The language was first released in 1995 when there were few options for building dynamic websites.
+website website 
+ASP.NET is Microsoft’s answer to Sun Microsystem’s (now, Oracle) Java. The web application framework is used to build websites using languages like Visual Basic (VB), C#, F#, and more.
+
+Its MVC (Model-View-Controller) architectural pattern allows backend development duties to be handled by a controller, which interacts with a model to process data. The result is then presented to the view for display as a frontend web page.
+Ruby on Rails (or Ruby) is a web development language built on top of the Ruby programming language. Ruby on Rails has a set of tools that allow you to simply create basic tasks (e.g. you’re able to create a basic blog with one line of code).
+
+Ruby involves little backend work, enabling developers to create and launch applications quickly. It is similar to Python in that it’s fantastic for prototyping. Ruby grew in popularity in the early 2000s as a result but has declined since then.
+website web websites
+Not to be confused with Java, JavaScript is a language that can be used for both the front end and back end.
+
+It’s a great language for beginners because it is a higher-level language and there is little setup involved (you can start coding in your browser).
+As you would probably already be aware, in a typical client-server architecture, application data is stored in the server-side and served as output to the client-side. The server-side working of a web application is known as backend. That’s where all the inner working of web applications takes place, and that’s where the work of backend developers lies.

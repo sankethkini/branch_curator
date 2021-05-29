@@ -1,0 +1,21 @@
+If you are interested in programming for Android, you will need at least basic understanding of how to program in Java. Android programming is done using Java syntax, plus a class library that resembles a subset of the Java SE library (plus Android-specific extensions). 
+If you have not programmed in Java before, you probably should quick learn how that works before attempting to dive into programming for Android. 
+The book does not cover in any detail how to download or install the Android development tools, either the Eclipse IDE flavor or the standalone flavor. The Android Web site covers this quite nicely. 
+The material in the book should be relevant whether you use the IDE or not. You should download, install, 
+and test out the Android development tools from the Android Web site before trying any of the examples listed in this book.
+To jump start your Android development, download theAndroid SDK (for Linux) from http://code.google.com/android/download.html. It includes sample projects withsource code, development tools, an emulator, and ofcourse all the libraries you’ll need to build an Androidapplication.Developing Android applicationsYou can develop Android applications with the same high-quality tools you use to develop Java applications. 
+TheAndroid core libraries provide the functionality needed tobuild some amazingly rich mobile applications, and theAndroid development tools make running, debugging andtesting your applications a snap.
+You can either use the Eclipse IDE (http://www.eclipse.org) or the command line tools available withthe SDK to develop your Android app.Android development with EclipseLife is made a lot simpler with the Eclipse plug-in forAndroid development, called the Android DevelopmentTools (ADT). It basically brings the power of the IDE toAndroid development. Refer to http://code.google.com/android/adt_download.html for download and installationinstructions.
+Android development sans EclipseThe Android SDK is bundled with all the tools to enablenon-Eclipse users to write their Android application. Inorder to do so, navigate to the ‘tools/’ folder in theextracted Android SDK folder. There is a Python scriptcalled activityCreator.py. 
+You get the following terminaloutput when you run the scrip
+The emulator is essentially meant to test your Androidapplications. It resides under the ‘tools/’ directory. Forinstructions on how you can test your just-developedAndroid application on the emulator, please refer to theAndroid SDK documentation. The emulator also shipswith a plethora of applications like a browser, a cooler-than-traditional phonebook and a map application, amongother features. So, even if you have not yet written anAndroid application, the emulator is a must checkout.
+t is still a matter of speculation as to when Androidwill make it into mainstream mobile phones, but it isdefinitely on its way and deserves a serious look from thedevelopers. The Android SDK documentation is extensive
+mobile application 
+android app
+sdk
+kotlin
+dart
+flutter
+flutter
+flutter
+flutter

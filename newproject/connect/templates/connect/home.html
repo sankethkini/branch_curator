@@ -1,0 +1,143 @@
+{% extends 'connect/basic.html'%}
+{%block content%}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/connect/recd">College Connect</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li>
+                    <a type="button" href="/connect/createproject" class="btn btn-primary mr-3">+ create project</a>
+                </li>
+                <li>
+                    <a href="/connect/createblog" class="btn btn-primary" type="button">+ create blog</a>
+                </li>
+            </ul>
+            <a href="/connect/myprofile" type="button" name="button" class="btn btn-primary mr-4">my profile</a>
+            <a href="/connect/logout" type="button" name="button" class="btn btn-primary">logout</a>
+        </div>
+    </nav>
+    <div class="container">
+    
+        <h3 class="my-3">Recommended Projects</h3>
+        <br>
+        <br>
+       
+        {% if projects|length == 0 %}
+        <div class="alert alert-primary alert-dismissible fade show my-3">
+            <strong>There is no projects in your profile</strong>
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        {% else %}
+    
+        <div class="row">
+            {% for i in projects %}
+            <div class="col-6">
+                <div class="card mt-3 tab-card">
+                  <div class="card-header tab-card-header">
+                    <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                      <li class="nav-item">
+                          <a class="nav-link" id="one-tab" data-toggle="tab" href="#one{{i.pid}}" role="tab" aria-controls="One" aria-selected="true">Project</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="two-tab" data-toggle="tab" href="#two{{i.pid}}" role="tab" aria-controls="Two" aria-selected="false">Timeline</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="three-tab" data-toggle="tab" href="#three{{i.pid}}" role="tab" aria-controls="Three" aria-selected="false">Creation</a>
+                      </li>
+                    </ul>
+                  </div>
+          
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active p-3" id="one{{i.pid}}" role="tabpanel" aria-labelledby="one-tab">
+                      <h5 class="card-title">{{i.name}}</h5>
+                      <p class="card-text">{{i.field}}</p>
+                      <p class="card-text">{{i.projshortdesc}}</p>
+                      <a href="/connect/handlelikes/proj/{{i.pid}}?site=recd" class="btn btn-primary">Like</a>              
+                    </div>
+                    <div class="tab-pane fade p-3" id="two{{i.pid}}" role="tabpanel" aria-labelledby="two-tab">
+                      <h5 class="card-title">details</h5>
+                      <p class="card-text"><strong>start time</strong>: {{i.starttime}}</p>
+                      <p class="card-text"><strong>total days</strong>: {{i.time}} days</p>
+                      <p class="card-text"><strong>people required</strong>: {{i.number_of_people}}</p>
+                      <p class="card-text"><strong>techstack</strong>: {{i.techstack}}</p>
+                      <a href="/connect/handlelikes/proj/{{i.pid}}?site=recd" class="btn btn-primary">Like</a>              
+                    </div>
+                    <div class="tab-pane fade p-3" id="three{{i.pid}}" role="tabpanel" aria-labelledby="three-tab">
+                      <h5 class="card-title">contacts</h5>
+                      {% for mem in i.created_by.all %}
+                      <p class="card-text"><strong>created by:</strong>{{mem.name}}</p>
+                      <p class="card-text"><strong>cont:</strong>{{mem.contact}}</p>
+                      <p class="card-text"><strong>email:</strong>{{mem.email}}</p>
+                      {% endfor %}
+                      <a href="/connect/handlelikes/proj/{{i.pid}}?site=recd" class="btn btn-primary">Like</a>              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+        {% endif %}
+        </div>
+        <br>
+        <br>
+    
+        <div class="container">
+        <h3 class="my-3">Recommended Blogs</h3>
+        <br>
+        <br>
+        {% if blogs|length == 0 %}
+        <div class="alert alert-primary alert-dismissible fade show my-3">
+            <strong>There is no blogs in your profile</strong>
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        {% else %}
+    
+        <div class="row">
+            {% for i in blogs %}
+            <div class="col-md-4">
+        
+                <div class="card my-5" style="width: 15rem;">
+                  <img class="card-img-top" src="https://pbs.twimg.com/profile_images/416470137861328896/Kch7r6Pt.jpeg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong><i>{{i.title}}</i></strong></h5>
+                    <h4 class="card-title"><strong>{{i.field}}</strong></h4>
+                    <p class="card-text">
+                      <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#exampleModal{{forloop.counter}}">
+                        Get Details.
+                      </button>
+                      <a class="btn btn-primary" href="/connect/handlelikes/blog/{{i.bid}}?site=recd">Like</a>
+                    </p>
+                  </div>
+                </div>
+                <!-- modal body -->
+                <div class="modal fade" id="exampleModal{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel{{forloop.counter}}"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel{{forllop.counter}}">{{i.title}}</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="form-group container">
+                            <strong>blog Description:</strong>
+                            <p>{{i.body}}</p>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+        {% endif %}
+        </div>
+        <br>
+        <br>
+    </div>
+
+{% endblock %}

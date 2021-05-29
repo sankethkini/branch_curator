@@ -1,0 +1,1 @@
+backend technology such as nodejs will be used in this project

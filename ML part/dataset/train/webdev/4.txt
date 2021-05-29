@@ -1,0 +1,13 @@
+
+Basic setup and learning how to learn
+Web standards and best practices (such as accessibility and cross-browser compatibility)
+HTML, the language that gives web content structure and meaning
+CSS, the language used to style web pages
+JavaScript, the scripting language used to create dynamic functionality on the web
+Tooling that is used to facilitate modern client-side web development.
+
+You can work through sections in order, but each one is also self-contained. For example, if you already know HTML, you can skip ahead to the CSS section.
+By the end of the course, you'll have all the tools and practical knowledge necessary to build visually rich Single page Web applications, try your luck with job interviews and kickstart your career as a Front End Developer!
+After completion you'll have touched upon the comprehensive curriculum of a Junior Front End Developer. Try your luck, applying for jobs, getting feedbacks and improving on the solid foundations built during this course!
+With the solid foundations acquired in this course, it will be much way easier to approach web articles and resources on Front End Development, armed with the necessary background and lingo to make the most out of them, learn effectively and quickly.
+With the basics knowledge out of the way, the world is your oyster! Expand on the foundational knowledge acquired and specialize in further niches AngularJs, EmberJs, Gaming, Full Stack Development

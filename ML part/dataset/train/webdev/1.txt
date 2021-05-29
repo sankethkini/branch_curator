@@ -1,0 +1,41 @@
+
+
+Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+
+Responsive Web Design is used in all types of modern web development.
+
+ECMAScript 5 (JavaScript 5) is supported in all modern browsers. Take a good look at it, especially the new array functions.
+
+
+When you feel comfortable with HTML and CSS, it is time to dig deeper.
+
+You should learn how to use Maps, Fonts and Icons in HTML.
+
+On the JavaScript side, you should learn how to access the HTML DOM.
+
+You should also learn how to use AJAX and JSON for making server requests.
+
+
+Now it is time to look at some Frameworks.
+
+On the CSS side you should choose a framework for reponsive web design:
+Bootstrap    Material Design    W3.CSS
+
+On the JavaScript side you should learn at least one modern framework:
+React.js    Angular.js    Vue.js     W3.JS
+
+Maybe the popularity of jQuery has passed the top, but it is still the most used JavaScript framework.
+
+Node.js backend frontend
+fullstack
+
+Program a browser like using JavaScript, jQuery, Angular, or Vue
+Program a server like using PHP, ASP, Python, or Node
+Program a database like using SQL, SQLite, or MongoDB
+
+LAMP stack JavaScript    Apache    PHP
+LEMP stack JavaScript    Nginx    PHP
+MEAN stack JavaScript  MongoDB  Express  AngularJS  Node.js
+Django stack JavaScript  Python  Django  
+Ruby on Rails JavaScript  Ruby  SQLite  Rails
+

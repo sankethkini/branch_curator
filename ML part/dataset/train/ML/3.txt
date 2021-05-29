@@ -1,0 +1,27 @@
+machine learning today is not like machine learning of the past. It was born from pattern recognition and the theory that computers can learn without being programmed to perform specific tasks; researchers interested in artificial intelligence wanted to see if computers could learn from data. The iterative aspect of machine learning is important because as models are exposed to new data, they are able to independently adap
+While many machine learning algorithms have been around for a long time, the ability to automatically apply complex mathematical calculations to big data – over and over, faster and faster – is a recent development. Here are a few widely publicized examples of machine learning applications you may be familiar with
+Resurging interest in machine learning is due to the same factors that have made data mining and Bayesian analysis more popular than ever. Things like growing volumes and varieties of available data, computational processing that is cheaper and more powerful, and affordable data storage.
+
+All of these things mean it's possible to quickly and automatically produce models that can analyze bigger, more complex data and deliver faster, more accurate results – even on a very large scale. And by building precise models, an organization has a better chance of identifying profitable opportunities – or avoiding unknown risks.
+Machine learning ML is the study of computer algorithms that improve automatically through experience and by the use of data. 
+It is seen as a part of artificial intelligence.
+ Machine learning algorithms build a model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to do so
+Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, and computer vision, where it is difficult or unfeasible to  conventional algorithms to perform the needed tasks. 
+A subset of machine learning is closely related to computational statistics, which focuses on making predictions using  but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning.
+In its application across business problems,
+
+
+Artificial intelligence
+Data mining
+Optimization
+
+Statistics
+
+ Supervised learning
+ Unsupervised learning
+Semi-supervised learning
+ Reinforcement learning
+ Dimensionality Reduction
+Other types
+ Models
+  Training models machine learning is also referred to as predictive analytics. 

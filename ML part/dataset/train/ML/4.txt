@@ -1,0 +1,16 @@
+
+
+Artificial intelligence
+Data mining
+Optimization
+
+Statistics
+
+ Supervised learning
+ Unsupervised learning
+Semi-supervised learning
+ Reinforcement learning
+ Dimensionality Reduction
+Other types
+ Models
+  Training models
