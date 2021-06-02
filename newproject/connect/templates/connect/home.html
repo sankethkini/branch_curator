@@ -10,6 +10,9 @@
                 <li>
                     <a href="/connect/createblog" class="btn btn-primary" type="button">+ create blog</a>
                 </li>
+                <li>
+                  <a href="/connect/explore/all" class="btn btn-primary ml-3" type="button">Explore all</a>
+              </li>
             </ul>
             <a href="/connect/myprofile" type="button" name="button" class="btn btn-primary mr-4">my profile</a>
             <a href="/connect/logout" type="button" name="button" class="btn btn-primary">logout</a>
@@ -31,8 +34,8 @@
         <div class="row">
             {% for i in projects %}
             <div class="col-6">
-                <div class="card mt-3 tab-card">
-                  <div class="card-header tab-card-header">
+                <div class="card mt-3 tab-card" style="background-color: #cbe7f7;">
+                  <div class="card-header tab-card-header" style="background-color:rgba(0, 0, 0, 0.863);color: antiquewhite;">
                     <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
                       <li class="nav-item">
                           <a class="nav-link" id="one-tab" data-toggle="tab" href="#one{{i.pid}}" role="tab" aria-controls="One" aria-selected="true">Project</a>
@@ -94,14 +97,14 @@
             {% for i in blogs %}
             <div class="col-md-4">
         
-                <div class="card my-5" style="width: 15rem;">
+                <div class="card my-5" style="width: 15rem;background-color: #a9ad97;">
                   <img class="card-img-top" src="https://pbs.twimg.com/profile_images/416470137861328896/Kch7r6Pt.jpeg"
                     alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title"><strong><i>{{i.title}}</i></strong></h5>
                     <h4 class="card-title"><strong>{{i.field}}</strong></h4>
                     <p class="card-text">
-                      <button type="button" class="btn btn-primary" data-toggle="modal"
+                      <button type="button" class="btn btn-outline-info" data-toggle="modal"
                         data-target="#exampleModal{{forloop.counter}}">
                         Get Details.
                       </button>

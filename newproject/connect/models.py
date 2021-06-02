@@ -19,7 +19,7 @@ class Member(models.Model):
 
 class Project(models.Model):
     pid=models.AutoField(primary_key=True)
-    name=models.CharField(max_length=50)
+    name=models.CharField(max_length=150)
     time=models.IntegerField(default=30)
     starttime=models.DateField(default=now)
     projshortdesc=models.TextField(default=None)
@@ -33,7 +33,7 @@ class Project(models.Model):
     
 class Blog(models.Model):
     bid=models.AutoField(primary_key=True)
-    title=models.CharField(max_length=50)
+    title=models.CharField(max_length=150)
     body=models.TextField()
     field=models.CharField(max_length=20,default=None)
     created_by=models.ManyToManyField(Member)

@@ -30,7 +30,7 @@ def signup(request):
             str=arr.tostring()
             obj=userProfile.objects.create(id=model_instance,projdata=str,blogdata=str)
             obj.save()
-            return redirect('/connect/signup')
+            return redirect('/connect/login')
         else:
             print(form.errors)
             return redirect('/connect/signup')
@@ -78,8 +78,8 @@ def login(request):
         else:
             if data['password']==member[0].password:
                 request.session['id']=id
-                request.session.set_expiry(3000)
-                return redirect('/connect/createproject')
+                request.session.set_expiry(30000)
+                return redirect('/connect/recd')
             else:
                 return redirect('/connect/login')
         return redirect('/connect/login')
@@ -225,7 +225,7 @@ def recommend(request):
                 resproj=Project.objects.get(pk=resids[i])
                 projects.append(resproj)
             
-           
+
     if len(blogids)==0:
         blog=Blog.objects.all()
         for i in range(len(blog)):
@@ -341,6 +341,7 @@ def allitems(request,cat):
                 res={}
                 res['bid']=cur.bid
                 res['title']=cur.title
+                res['field']=cur.field
                 res['body']=cur.body
                 res['created_by']=cur.created_by
                 res['like']=True
@@ -349,6 +350,7 @@ def allitems(request,cat):
                 res={}
                 res['bid']=cur.bid
                 res['title']=cur.title
+                res['field']=cur.field
                 res['body']=cur.body
                 res['created_by']=cur.created_by
                 res['like']=False
