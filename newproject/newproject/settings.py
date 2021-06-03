@@ -26,7 +26,7 @@ SECRET_KEY = ')s48@gs1g+zme$#f3yoj3+=s9#a=&1rzn_ku399+k7y7xr-1-y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'newproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'newcollege1',
-        'USER':'root',
-        'PASSWORD':'#######',
-        'HOST':'localhost',
-        'PORT':'3306'
+         'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bgdnuwoejimzm175axo9',
+        'USER': 'u6ot99ovvqw9wqva',
+        'PASSWORD': 'IfBulRE5FOeI8LZS2wZ8',
+        'HOST': 'bgdnuwoejimzm175axo9-mysql.services.clever-cloud.com',
+        'PORT': '3306',
     }
 }
 
