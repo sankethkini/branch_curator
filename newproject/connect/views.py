@@ -424,7 +424,6 @@ def data1():
     stdate=enddate-4*delta
     res=[]
     while stdate<=enddate:
-        print(stdate)
         nextdate=stdate+delta
         for i in targets:
             k=[]
@@ -471,7 +470,6 @@ def data2(res):
     cloudsc=calcscore(cloud)
     webdevsc=calcscore(webdev)
     res=[]
-    print(len(mlsc))
     for i in range(len(mlsc)):
         res.append([dates[i+1],"ML",mlsc[i]])
     for i in range(len(androidsc)):
@@ -491,7 +489,7 @@ def chart(request):
    data3=data.copy()
    data3.sort(key = lambda x: x[1])
    d2=data2(data3)
-   print(d2)
+   
    schema = [{
   "name": "Time",
   "type": "date",
@@ -588,3 +586,6 @@ def updateblog(request,id):
     bobj=Blog.objects.get(pk=id)
     form=CreateBlog(initial={'title':bobj.title,'body':bobj.body})
     return render(request,'connect/updateblog.html',{'forms':form})
+
+def root(request):
+    return render(request,'connect/root.html')

@@ -26,7 +26,7 @@ SECRET_KEY = ')s48@gs1g+zme$#f3yoj3+=s9#a=&1rzn_ku399+k7y7xr-1-y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -83,10 +83,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'newcollege1',
-        'USER':'root',
-        'PASSWORD':'$$$$$$',
-        'HOST':'localhost',
-        'PORT':'3306'
+        'USER': 'root',
+        'PASSWORD': 'sanketh123',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
@@ -129,3 +129,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+

@@ -16,5 +16,6 @@ urlpatterns = [
     path('explore/<str:cat>/',allitems),
     path('chart/',chart),
     path('updateproject/<int:id>/',updateproject),
-    path('updateblog/<int:id>/',updateblog)
+    path('updateblog/<int:id>/',updateblog),
+    
 ]
