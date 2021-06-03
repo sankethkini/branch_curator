@@ -22,3 +22,5 @@ urlpatterns = [
     path('connect/',include(urls)),
     path('',views.root)
 ]
+
+
