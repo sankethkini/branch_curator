@@ -17,6 +17,7 @@
 ## backend part 
 * We have used Django in the backend and Postgresql as database.
 * Django ORM used for interacting with database and Django Template langauge for displaying the contents to user.
+* Trends in a particular filed is calculated using z-score
 
 ## frontend part
 * bootstrap-4 used for design of website and Django Template langauge for displaying the contents to user.
