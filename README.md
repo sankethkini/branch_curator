@@ -9,5 +9,18 @@
 * It automatically tags topic whenerver you submit a project.
 * It gives overall trends such as which field is trending and how much new things are coming to it.
 
-** ML PART **
+## ML PART 
+* This project does recommendations and topic classification
+* For recommendation we collects likes of people in past as data and match the items using cosine similarity.
+* For topic classification we use naive bayes algorithm on a vector of words also called as bag of words
+
+## backend part 
+* We have used Django in the backend and Postgresql as database.
+* Django ORM used for interacting with database and Django Template langauge for displaying the contents to user.
+
+## frontend part
+* bootstrap-4 used for design of website and Django Template langauge for displaying the contents to user.
+
+#### This website is diployed on heroku.
+https://bcurator.herokuapp.com/
 
