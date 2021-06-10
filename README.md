@@ -9,8 +9,5 @@
 * It automatically tags topic whenerver you submit a project.
 * It gives overall trends such as which field is trending and how much new things are coming to it.
 
-<details>
-  <summary>** ML PART **</summary>
-<p>In this part we do **recommendation** , **topic classification** </p>
-<p>
-</details>
+** ML PART **
+
