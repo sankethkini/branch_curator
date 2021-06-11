@@ -1,6 +1,6 @@
 # branch_curator
 
-### A simple solution to manage a branch activity.
+### A simple solution to manage activites in a branch
 
 * This project aims to find a solution for managing project related activity in a branch (ISE/CSE) . 
 * This project will help people to create anew project and ask people to join in .
