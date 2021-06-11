@@ -25,3 +25,6 @@
 #### This website is diployed on heroku.
 https://bcurator.herokuapp.com/
 
+
+#### demo video
+https://youtu.be/BKkmYDPz5Zw
